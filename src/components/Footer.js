@@ -15,7 +15,7 @@ export default function Footer(){
             <div className="flex-[1.5] w-full flex flew-row justify-between flex-wrap md:mt-0 mt-10">
                 {footerLinks.map((footerLink)=>(
                     
-                    <div key={footerLink.key} className="flex       flex-cl ss:my-0 my-4 min-w-[150px]">
+                    <div key={footerLink.title} className="flex       flex-cl ss:my-0 my-4 min-w-[150px]">
 
                         <ul> 
 
