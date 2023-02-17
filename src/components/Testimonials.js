@@ -6,7 +6,7 @@ import FeedBackCard from "./FeedBackCard";
 
 export default function Testimonials(){
     return (
-        <section id="clientes" className={`${styles.flexCenter} ${styles.paddingY} flex-col relative`}>
+        <section id="clients" className={`${styles.flexCenter} ${styles.paddingY} flex-col relative`}>
             <div className="absolute z-[0] w-[70%] h-[70%] -right-[50%] rounded-full blue__gradient"/>
 
             <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
